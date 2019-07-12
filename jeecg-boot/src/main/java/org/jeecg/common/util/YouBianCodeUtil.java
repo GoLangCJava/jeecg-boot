@@ -21,7 +21,6 @@ public class YouBianCodeUtil {
 	 * 根据前一个code，获取同级下一个code
 	 * 例如:当前最大code为D01A04，下一个code为：D01A05
 	 * 
-	 * @param code
 	 * @return
 	 */
 	public static synchronized String getNextYouBianCode(String code) {
