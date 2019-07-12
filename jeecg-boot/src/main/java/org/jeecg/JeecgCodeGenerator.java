@@ -28,10 +28,8 @@ public class JeecgCodeGenerator {
     	System.out.println("----jeecg--------- Code------------- Generation -----[单表模型]------- 生成中。。。");
     	
     	/**[2]、表配置参数 */
-		TableVo table = new TableVo();
-		//表名
-		table.setTableName("jeecg_order_main");
-		//表主键策略（目前只支持UUID）
+		TableVo table = new TableVo(); //表名
+		table.setTableName("jeecg_order_main"); //表主键策略（目前只支持UUID）
 		table.setPrimaryKeyPolicy("uuid");
 		//子业务包名
 		table.setEntityPackage("test2");
