@@ -26,8 +26,7 @@ public class JeecgCodeGenerator {
 	 */
     public static void main(String[] args) {
     	System.out.println("----jeecg--------- Code------------- Generation -----[单表模型]------- 生成中。。。");
-    	
-    	/**[2]、表配置参数 */
+    	/**[2]、表配置参数*/
 		TableVo table = new TableVo();
 		//表名
 		table.setTableName("jeecg_order_main");
