@@ -31,6 +31,11 @@ public class JeecgCodeGenerator {
 		//表名
 		table.setTableName("jeecg_order_main");
 		//表主键策略（目前只支持UUID）
+
+    	/**[2]、表配置参数 */
+		TableVo table = new TableVo();
+		table.setTableName("jeecg_order_main");
+
 		table.setPrimaryKeyPolicy("uuid");
 		//子业务包名
 		table.setEntityPackage("test2");
