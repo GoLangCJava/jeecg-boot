@@ -15,7 +15,7 @@ public class YouBianCodeUtil {
 
 	private static final int numLength = 2;//代表数字位数
 
-	public static final int zhanweiLength = 1+numLength;
+	public static final int zhanweiLength = 2+numLength;
 
 	/**
 	 * 根据前一个code，获取同级下一个code
